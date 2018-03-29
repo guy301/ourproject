@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         mTess.init(datapath, language);
     }
-
+    //hello
     public void addButtons(String s)
     {
         String[] words = s .split("\\s+");
