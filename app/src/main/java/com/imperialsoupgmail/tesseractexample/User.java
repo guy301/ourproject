@@ -1,7 +1,9 @@
 package com.imperialsoupgmail.tesseractexample;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -14,6 +16,7 @@ public class User implements Serializable {
     private static int numOfUsers=0;
     private int totalPayment;
     HashMap<Item,Integer> items;
+    List<Integer[]> shareGrups;
 
     public User()
     {
@@ -22,6 +25,7 @@ public class User implements Serializable {
         this.id=numOfUsers;
         this.totalPayment=0;
         this.items=new HashMap<Item,Integer>();
+        this.shareGrups = new ArrayList<Integer[]>();
     }
 
     public User(String name,HashMap<Item,Integer> items)
@@ -31,12 +35,26 @@ public class User implements Serializable {
         numOfUsers++;
         this.id=numOfUsers;
         this.totalPayment=0;
-        this.items=new HashMap<Item,Integer>();
+        this.shareGrups = new ArrayList<Integer[]>();
+
     }
+
+
     public HashMap<Item,Integer> getItems()
     {
         return this.items;
     }
+    public List<Item> getItemsList()
+    {
+        List<Item> itemsList = new ArrayList<Item>();
+
+        for (Map.Entry<Item, Integer> entry : this.items.entrySet()) {
+            itemsList.add(entry.getKey());
+        }
+        return itemsList;
+    }
+
+
     public void updateName(String name)
     {
         this.name=name;

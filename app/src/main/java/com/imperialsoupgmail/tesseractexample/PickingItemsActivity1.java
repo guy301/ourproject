@@ -33,13 +33,13 @@ public class PickingItemsActivity1 extends AppCompatActivity {
         users = (ArrayList<User>) getIntent().getSerializableExtra("Users");
         AppItemsMap= (Map<Item,Integer>) getIntent().getSerializableExtra("Items");
         List<CheckBox> usersButtonList=addUserButtons(users);
-        addItemsButtons(AppItemsMap);
+        addItemsButtons(AppItemsMap, null);
 
     }
 
 
 
-    public void addItemsButtons(Map<Item,Integer> itemsMap)
+    public void addItemsButtons(Map<Item,Integer> itemsMap,User user)
     {
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.pickItem);
         Item itm;
@@ -54,14 +54,14 @@ public class PickingItemsActivity1 extends AppCompatActivity {
             btn.setText(name + ": " + quantity);
             layout.addView(btn);
             if (activeUsers.size() != 0)
-                itemButtonsOnclik(btn);
+                itemButtonsOnclik(btn,user);
             btn.setY(i * 170);
             btn.setX(-1100);
             i++;
          }
     }
 
-    public void itemButtonsOnclik(Button btn)
+    public void itemButtonsOnclik(Button btn,final User user)
     {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,10 +71,31 @@ public class PickingItemsActivity1 extends AppCompatActivity {
                 String tmp = null;
                 String name = "none";
                 int quantity = 0;
+
                 if (s.hasNext())
                     name = s.next();
                 if (s.hasNext())
                     quantity = Integer.parseInt(s.next().toString()) + 1;
+
+                if(user!=null)
+                {
+                    Map<Item,Integer> userItemsMap=user.getItems();
+                    Scanner s1 = new Scanner(str).useDelimiter(":");
+                    String itemName="None";
+                    if (s1.hasNext())
+                        itemName = s1.next();
+                    Item itm=getItemByName(itemName);
+                    int userQuantity=userItemsMap.get(itm);
+                    //userItemsMap.remove(itm);
+
+                    int appQuantity=AppItemsMap.get(itm);
+                    if(appQuantity ==0)
+                        quantity--;
+                    else {
+                        AppItemsMap.put(itm, appQuantity - 1);
+                        userItemsMap.put(itm,userQuantity+1);
+                    }
+                }
 
                 ((Button) v).setText(name + " " + quantity);
             }
@@ -92,8 +113,25 @@ public class PickingItemsActivity1 extends AppCompatActivity {
                     name = s.next();
                 if (s.hasNext())
                     quantity = Integer.parseInt(s.next().toString()) - 1;
-                if (quantity < 0)
-                    quantity = 0;
+                if(user!=null)
+                {
+                    Map<Item,Integer> userItemsMap=user.getItems();
+                    Scanner s1 = new Scanner(str).useDelimiter(":");
+                    String itemName="None";
+                    if (s1.hasNext())
+                        itemName = s1.next();
+                    Item itm=getItemByName(itemName);
+                    int userQuantity=userItemsMap.get(itm);
+                    //userItemsMap.remove(itm);
+
+                    int appQuantity=AppItemsMap.get(itm);
+                    if(quantity<0)
+                        quantity=0;
+                    else {
+                        AppItemsMap.put(itm, appQuantity + 1);
+                        userItemsMap.put(itm,userQuantity-1);
+                    }
+                }
                 ((Button) v).setText(name + " " + quantity);
                 return true;
             }
@@ -109,7 +147,9 @@ public class PickingItemsActivity1 extends AppCompatActivity {
             itm = entry.getKey();
             itemName=itm.getName();
             if(itemName.equals(name))
+            {
                 return itm;
+            }
         }
         return null;
     }
@@ -117,21 +157,31 @@ public class PickingItemsActivity1 extends AppCompatActivity {
 
     public void updateActiveUsers(boolean add,String name)
     {
+        boolean flag=false;
         User user=null;
         Iterator<User> iter=users.iterator();
+        Map<Item,Integer> userItemsMap=null;
         while(iter.hasNext())
         {
+
             user=(User)iter.next();
-            if(user.getName()==name)
+            if(user.getName().equals(name))
             {
                 if(add)
                      activeUsers.add(user);
                 else
                      activeUsers.remove(user);
-            }
 
-            addItemsButtons(AppItemsMap);
+                if(activeUsers.size()!=0)
+                {
+                    flag=true;
+                    userItemsMap=user.getItems();
+                    addItemsButtons(userItemsMap,user);
+                }
+            }
         }
+        if(flag==false)
+            addItemsButtons(AppItemsMap,null);
     }
 
 
