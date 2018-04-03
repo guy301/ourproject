@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sap-1\\OneDrive\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\1501f8481ab97052af5f161c1c20c532\\res\\values-sw\\values-sw.xml",
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -16,7 +16,37 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project4\\project\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,266,389,487,595,685,790,907,989,1072,1154,1255,1364,1463,1570,1679,1784,1903,2000",
+                        "endColumns": "102,107,122,97,107,89,104,116,81,82,81,100,108,98,106,108,104,118,96,100",
+                        "endOffsets": "153,261,384,482,590,680,785,902,984,1067,1149,1250,1359,1458,1565,1674,1779,1898,1995,2096"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Guy\\Desktop\\proj\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\4eaffdd11cfe5586fb89d8ee9ce8d932\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,266,389,487,595,685,790,907,989,1072,1154,1255,1364,1463,1570,1679,1784,1903,2000",
+                        "endColumns": "102,107,122,97,107,89,104,116,81,82,81,100,108,98,106,108,104,118,96,100",
+                        "endOffsets": "153,261,384,482,590,680,785,902,984,1067,1149,1250,1359,1458,1565,1674,1779,1898,1995,2096"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Guy\\Desktop\\project\\28_2_v1\\SimpleTesseractExample\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-sw\\values-sw.xml",

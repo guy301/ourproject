@@ -1,10 +1,12 @@
 package com.imperialsoupgmail.tesseractexample;
 
+import java.io.Serializable;
+
 /**
  * Created by Guy on 29/03/2018.
  */
 
-public class Item {
+public class Item implements Serializable {
 
     private int price;
     private String name;

@@ -34,6 +34,15 @@
             android:onClick="takePicture"
             android:text="take a pic"
             />
+
+        <Button
+            android:id="@+id/users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b_camera"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:text="users" />
     </RelativeLayout>
 
     <RelativeLayout

@@ -16,6 +16,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.ArrayMap;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +35,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     private Bundle bundle;
@@ -62,8 +67,41 @@ public class MainActivity extends AppCompatActivity {
         checkFile(new File(datapath + "tessdata/"));
 
         mTess.init(datapath, language);
+
+        Button usersBtn = (Button) findViewById(R.id.users);
+        usersBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Item itm=new Item("coke",5);
+                Item itm1=new Item("tea",6);
+                HashMap<Item,Integer> itemsList=new HashMap<Item,Integer>();
+                itemsList.put(itm,8);
+                itemsList.put(itm1,2);
+
+                HashMap<Item,Integer> itemsGuy=new HashMap<Item,Integer>();
+                itemsGuy.put(itm,0);
+                itemsGuy.put(itm1,0);
+                HashMap<Item,Integer> itemsSapir=new HashMap<Item,Integer>();
+                itemsSapir.put(itm,0);
+                itemsSapir.put(itm1,0);
+                ArrayList<User> users = new ArrayList<User>();
+                User u1 = new User("Guy",itemsGuy);
+                User u2 = new User("Sapir",itemsSapir);
+                users.add(u1);
+                users.add(u2);
+                Intent intent = new Intent(MainActivity.this, PickingItemsActivity1.class);
+
+
+                intent.putExtra("Items",itemsList);
+
+                intent.putExtra("Users",users);
+                startActivity(intent);
+            }
+        });
+
     }
-    //hello
+
+
     public void addButtons(String s)
     {
         String[] words = s .split("\\s+");
@@ -196,6 +234,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+
 
     public void takePicture(View view) {
         Intent CamIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

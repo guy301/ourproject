@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sap-1\\OneDrive\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+            "outputFile": "C:\\Users\\Guy\\Desktop\\project\\28_2_v1\\SimpleTesseractExample\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\1501f8481ab97052af5f161c1c20c532\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -16,7 +16,37 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,268,391,495,603,694,801,928,1022,1112,1200,1310,1426,1529,1644,1746,1861,1992,2104",
+                        "endColumns": "104,107,122,103,107,90,106,126,93,89,87,109,115,102,114,101,114,130,111,100",
+                        "endOffsets": "155,263,386,490,598,689,796,923,1017,1107,1195,1305,1421,1524,1639,1741,1856,1987,2099,2200"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Guy\\Desktop\\proj\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\4eaffdd11cfe5586fb89d8ee9ce8d932\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,268,391,495,603,694,801,928,1022,1112,1200,1310,1426,1529,1644,1746,1861,1992,2104",
+                        "endColumns": "104,107,122,103,107,90,106,126,93,89,87,109,115,102,114,101,114,130,111,100",
+                        "endOffsets": "155,263,386,490,598,689,796,923,1017,1107,1195,1305,1421,1524,1639,1741,1856,1987,2099,2200"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project4\\project\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-ne-rNP\\values-ne-rNP.xml",

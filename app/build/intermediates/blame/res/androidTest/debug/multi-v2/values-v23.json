@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sap-1\\OneDrive\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project4\\project\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\1501f8481ab97052af5f161c1c20c532\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -17,7 +17,39 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\Guy\\Desktop\\project\\28_2_v1\\SimpleTesseractExample\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2184,2299,2406",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35",
+                        "endColumns": "134,134,74,86,12,12,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2179,2294,2401,2514"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Guy\\Desktop\\proj\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\4eaffdd11cfe5586fb89d8ee9ce8d932\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-v23\\values-v23.xml",
