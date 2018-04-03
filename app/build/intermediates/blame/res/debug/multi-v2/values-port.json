@@ -1,55 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "C:\\Users\\sap-1\\OneDrive\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-port\\values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Guy\\Documents\\GitHub\\project4\\project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-port\\values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Guy\\Desktop\\proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\4eaffdd11cfe5586fb89d8ee9ce8d932\\res\\values-port\\values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Guy\\Desktop\\project\\28_2_v1\\SimpleTesseractExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\319ba8b56f89432ee759364ebbeac779\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\213b3435dada01ddf787842968213e22\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

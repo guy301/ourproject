@@ -45,18 +45,20 @@ public class MainActivity extends AppCompatActivity {
     private Bundle bundle;
     private Bitmap bitmap;
     private Button takePicturButton;
+    private Button set_items;
     private Uri file;
     Bitmap image;
 
     private TessBaseAPI mTess;
     String datapath = "";
+    String Text;
     Intent  CropIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         takePicturButton = (Button) findViewById(R.id.b_camera);
-
+        set_items = (Button) findViewById(R.id.setItems_b);
         image = BitmapFactory.decodeResource(getResources(), R.drawable.test_image);
 
         //initialize Tesseract API
@@ -125,11 +127,11 @@ public class MainActivity extends AppCompatActivity {
         mTess.setImage(bitmap);
         OCRresult = mTess.getUTF8Text();
         TextView OCRTextView = (TextView) findViewById(R.id.OCRTextView);
-        String s=OCRresult.toString();
-        addButtons(s);
-        double  m=testAnalize1(s);
-        s=s+ " hit rate: "+m;
-        OCRTextView.setText(s);
+        Text = OCRresult.toString();
+        //addButtons(Text);
+//        double  m=testAnalize1(Text);
+//        Text = Text+ " hit rate: "+m;
+        OCRTextView.setText(Text);
 
     }
 
@@ -239,8 +241,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void takePicture(View view) {
         Intent CamIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        file = Uri.fromFile(getOutputMediaFile());
-        CamIntent.putExtra(MediaStore.EXTRA_OUTPUT, file);
+        String imageFilePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/picture.jpg";
+        File imageFile = new File(imageFilePath);
+        file = Uri.fromFile(imageFile);
+        CamIntent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, file);
 
         startActivityForResult(CamIntent, 100);
     }
@@ -262,9 +266,11 @@ public class MainActivity extends AppCompatActivity {
             //CropIntent.putExtra("aspectY", 1);
             //CropIntent.putExtra("scaleUpIfNeeded", true);
             CropIntent.putExtra("return-data", true);
-            file = Uri.fromFile(getOutputMediaFile());
+            String imageFilePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/picture.jpg";
+            File imageFile = new File(imageFilePath);
+            file = Uri.fromFile(imageFile);
             datapath = file.getPath();
-            CropIntent.putExtra(MediaStore.EXTRA_OUTPUT, file);
+            CropIntent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, file);
 
             startActivityForResult(CropIntent, 1);
         }
@@ -287,5 +293,11 @@ public class MainActivity extends AppCompatActivity {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         return new File(mediaStorageDir.getPath() + File.separator +
                 "IMG_"+ timeStamp + ".jpg");
+    }
+
+    public void setItems(View view){
+        Intent SI = new Intent(this, settingItems.class);
+        SI.putExtra("OCR_text", Text);
+        startActivity(SI);
     }
 }

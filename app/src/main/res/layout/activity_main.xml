@@ -10,10 +10,10 @@
 
 
     <RelativeLayout
+        android:id="@+id/ImageContainer"
         android:layout_width="match_parent"
         android:layout_height="332dp"
-        android:background="@drawable/backgroundimage"
-        android:id="@+id/ImageContainer">
+        android:background="@drawable/backgroundimage">
 
 
         <Button
@@ -22,7 +22,7 @@
             android:layout_height="48dp"
             android:gravity="end|left"
             android:onClick="gallery"
-            android:text="Select Image"/>
+            android:text="Select Image" />
 
         <Button
             android:id="@+id/b_camera"
@@ -32,8 +32,7 @@
             android:layout_marginStart="148dp"
             android:layout_marginTop="73dp"
             android:onClick="takePicture"
-            android:text="take a pic"
-            />
+            android:text="take a pic" />
 
         <Button
             android:id="@+id/users"
@@ -43,6 +42,16 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="38dp"
             android:text="users" />
+
+        <Button
+            android:id="@+id/setItems_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="setItems"
+            android:text="Set Items"
+            android:visibility="visible" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -84,4 +93,5 @@
             android:background="#dedede"
             android:textColor="#a3a3a3" />
     </RelativeLayout>
+
 </LinearLayout>

@@ -1,104 +1,108 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:2:1-19:12
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:17:1-27:12
-MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\ac5ca4baf41567cbe3d06f36d3cec47a\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\399955e0d2fb88df42ad88c947964c0e\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\fdf16144e21b9140d347134cddc247f1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\83b15a2295181280c9a572a17020720a\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\c71b9a4a62d1ae09438742049bff56d1\AndroidManifest.xml:17:1-27:12
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\213b3435dada01ddf787842968213e22\AndroidManifest.xml:17:1-27:12
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\c662315290b51ea4d9c6a05f3471da96\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6855a44a5d0064353b19bda40cce0ff2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\3ac7452d73bc02719801f430794d1237\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\f21b5017a84caa6869fc569395b7491d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\a44dbd25e42751638741f53ee064e0a6\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:3:5-53
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:5:5-21:19
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:11:5-17:19
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:11:5-17:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\399955e0d2fb88df42ad88c947964c0e\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\399955e0d2fb88df42ad88c947964c0e\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\fdf16144e21b9140d347134cddc247f1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\fdf16144e21b9140d347134cddc247f1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\83b15a2295181280c9a572a17020720a\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\83b15a2295181280c9a572a17020720a\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\c71b9a4a62d1ae09438742049bff56d1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\c71b9a4a62d1ae09438742049bff56d1\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:11:5-17:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\213b3435dada01ddf787842968213e22\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\213b3435dada01ddf787842968213e22\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6855a44a5d0064353b19bda40cce0ff2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6855a44a5d0064353b19bda40cce0ff2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\3ac7452d73bc02719801f430794d1237\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\3ac7452d73bc02719801f430794d1237\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\f21b5017a84caa6869fc569395b7491d\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\f21b5017a84caa6869fc569395b7491d\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\a44dbd25e42751638741f53ee064e0a6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\a44dbd25e42751638741f53ee064e0a6\AndroidManifest.xml:25:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.imperialsoupgmail.tesseractexample.MainActivity
-ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:11:9-19:20
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:11:9-19:20
 	android:theme
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:13:13-63
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:13:13-63
 	android:name
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:12:13-41
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:12:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:17:27-74
 activity#com.imperialsoupgmail.tesseractexample.PickingItemsActivity1
-ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:20:9-68
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:20:9-59
 	android:name
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:20:19-56
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:20:19-56
+activity#com.imperialsoupgmail.tesseractexample.settingItems
+ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:21:9-59
+	android:name
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:21:19-47
 uses-sdk
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:21:5-23:78
-MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\ac5ca4baf41567cbe3d06f36d3cec47a\AndroidManifest.xml:22:5-24:41
-MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\ac5ca4baf41567cbe3d06f36d3cec47a\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\399955e0d2fb88df42ad88c947964c0e\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\399955e0d2fb88df42ad88c947964c0e\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\fdf16144e21b9140d347134cddc247f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\fdf16144e21b9140d347134cddc247f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\83b15a2295181280c9a572a17020720a\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\83b15a2295181280c9a572a17020720a\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\c71b9a4a62d1ae09438742049bff56d1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\c71b9a4a62d1ae09438742049bff56d1\AndroidManifest.xml:21:5-23:54
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\213b3435dada01ddf787842968213e22\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\213b3435dada01ddf787842968213e22\AndroidManifest.xml:21:5-23:78
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\c662315290b51ea4d9c6a05f3471da96\AndroidManifest.xml:22:5-24:41
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\c662315290b51ea4d9c6a05f3471da96\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6855a44a5d0064353b19bda40cce0ff2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6855a44a5d0064353b19bda40cce0ff2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\3ac7452d73bc02719801f430794d1237\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\3ac7452d73bc02719801f430794d1237\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\f21b5017a84caa6869fc569395b7491d\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\f21b5017a84caa6869fc569395b7491d\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\a44dbd25e42751638741f53ee064e0a6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\a44dbd25e42751638741f53ee064e0a6\AndroidManifest.xml:21:5-23:54
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.1.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\213b3435dada01ddf787842968213e22\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
