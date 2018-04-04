@@ -1,9 +1,6 @@
 package com.imperialsoupgmail.tesseractexample;
 
-import android.Manifest;
-import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
@@ -12,15 +9,12 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -34,7 +28,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
     private Bundle bundle;
@@ -62,8 +58,56 @@ public class MainActivity extends AppCompatActivity {
         checkFile(new File(datapath + "tessdata/"));
 
         mTess.init(datapath, language);
+
+        Button usersBtn = (Button) findViewById(R.id.users);
+        usersBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Item itm=new Item("coke",5);
+                Item itm1=new Item("tea",6);
+                Item itm2=new Item("banana",6);
+                Item itm3=new Item("apple",6);
+                HashMap<Item,Integer> itemsList=new HashMap<Item,Integer>();
+                itemsList.put(itm,8);
+                itemsList.put(itm1,10);
+                itemsList.put(itm2,5);
+                itemsList.put(itm3,6);
+
+                HashMap<Item,Integer> itemsGuy=new HashMap<Item,Integer>();
+                itemsGuy.put(itm,0);
+                itemsGuy.put(itm1,0);
+                itemsGuy.put(itm2,0);
+                itemsGuy.put(itm3,0);
+                HashMap<Item,Integer> itemsSapir=new HashMap<Item,Integer>();
+                itemsSapir.put(itm,0);
+                itemsSapir.put(itm1,0);
+                itemsSapir.put(itm2,0);
+                itemsSapir.put(itm3,0);
+                HashMap<Item,Integer> itemsJina=new HashMap<Item,Integer>();
+                itemsJina.put(itm,0);
+                itemsJina.put(itm1,0);
+                itemsJina.put(itm2,0);
+                itemsJina.put(itm3,0);
+                ArrayList<User> users = new ArrayList<User>();
+                User u1 = new User("Guy",itemsGuy);
+                User u2 = new User("Sapir",itemsSapir);
+                User u3 = new User("Jina",itemsJina);
+                users.add(u1);
+                users.add(u2);
+                users.add(u3);
+                Intent intent = new Intent(MainActivity.this, PickingItemsActivity.class);
+
+
+                intent.putExtra("Items",itemsList);
+
+                intent.putExtra("Users",users);
+                startActivity(intent);
+            }
+        });
+
     }
-    //hello
+
+
     public void addButtons(String s)
     {
         String[] words = s .split("\\s+");
@@ -196,6 +240,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+
 
     public void takePicture(View view) {
         Intent CamIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
