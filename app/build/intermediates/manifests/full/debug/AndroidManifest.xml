@@ -27,6 +27,10 @@
         </activity>
         <activity android:name="com.imperialsoupgmail.tesseractexample.PickingItemsActivity1" />
         <activity android:name="com.imperialsoupgmail.tesseractexample.settingItems" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.0" />
     </application>
 
 </manifest>
