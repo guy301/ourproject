@@ -19,20 +19,21 @@ import java.util.Scanner;
 
 public class PickingItemsActivity extends AppCompatActivity {
 
-    User activeUser=null;
-    boolean groupUserActive=false;
-    List<User> users;
-    Map<Item,Integer> AppItemsMap;
+    private User activeUser=null;
+    private  boolean groupUserActive=false;
+    private  List<User> users;
+    private  Map<Item,Integer> AppItemsMap;
+    private  Map<Button,Item> buttonsList;
+    private   int maxButtonWidth=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_picking_items);
+        buttonsList=new HashMap<Button,Item>();
         users = (ArrayList<User>) getIntent().getSerializableExtra("Users");
         AppItemsMap= (Map<Item,Integer>) getIntent().getSerializableExtra("Items");
         List<CheckBox> usersButtonList=addUserButtons(users);
         addItemsButtons(AppItemsMap, null);
-
-
     }
 
 
@@ -51,88 +52,86 @@ public class PickingItemsActivity extends AppCompatActivity {
             Button btn = new Button(this);
             btn.setText(name + ": " + quantity);
             layout.addView(btn);
-            if (activeUser != null)
-                itemButtonsOnclik(btn,user);
             btn.setY(i * 170);
             btn.setX(-1050);
+            if(btn.getWidth()>maxButtonWidth)
+                maxButtonWidth=btn.getWidth();
+            buttonsList.put(btn,itm);
+            if (activeUser != null)
+                itemButtonsOnclik(btn,user);
             i++;
          }
     }
 
-    public void itemButtonsOnclik(Button btn,final User user)
+    private void uptadeItemsButtons(User user)
+    {
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.pickItem);
+        Button btn;
+        Item itm;
+        String name;
+        int quantity;
+        Map<Item,Integer> userItemsMap;
+        if(user!=null)
+            userItemsMap=user.getItems();
+        else
+            userItemsMap= AppItemsMap;
+        for (Map.Entry<Button, Item> entry : buttonsList.entrySet()) {
+            btn=entry.getKey();
+            itm=entry.getValue();
+            name=itm.getName();
+            quantity=userItemsMap.get(itm);
+            btn.setText(name + ": " + quantity);
+           // btn.setWidth(maxButtonWidth);
+            if (activeUser != null)
+                itemButtonsOnclik(btn,user);
+        }
+    }
+
+    public void itemButtonsOnclik(final Button btn,final User user)
     {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String str = ((Button) v).getText().toString();
-                Scanner s = new Scanner(str).useDelimiter(" ");
-                String tmp = null;
-                String name = "none";
-                int quantity = 0;
-
-                if (s.hasNext())
-                    name = s.next();
-                if (s.hasNext())
-                    quantity = Integer.parseInt(s.next().toString()) + 1;
-
-                if(user!=null)
+                Item itm= buttonsList.get(btn);
+                String name =itm.getName();
+                int quantity = AppItemsMap.get(itm); // default
+                if(user!=null) // in case that the is a user
                 {
-                    Map<Item,Integer> userItemsMap=user.getItems();
-                    Scanner s1 = new Scanner(str).useDelimiter(":");
-                    String itemName="None";
-                    if (s1.hasNext())
-                        itemName = s1.next();
-                    Item itm=getItemByName(itemName);
-                    int userQuantity=userItemsMap.get(itm);
-                    //userItemsMap.remove(itm);
-
+                    int userQuantity=user.getQuantityOfItem(itm);
                     int appQuantity=AppItemsMap.get(itm);
-                    if(appQuantity ==0)
-                        quantity--;
-                    else {
+                    if(appQuantity >0) // if there is enough quantity from the item
+                    {
                         AppItemsMap.put(itm, appQuantity - 1);
-                        //userItemsMap.put(itm,userQuantity+1);
                         user.updateItem(itm,userQuantity+1);
+                        quantity=userQuantity+1;
                     }
+                    else
+                        quantity=userQuantity;
                 }
-
-                ((Button) v).setText(name + " " + quantity);
+                ((Button) v).setText(name + ": " + quantity);
             }
         });
 
         btn.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-
-                String str = ((Button) v).getText().toString();
-                Scanner s = new Scanner(str).useDelimiter(" ");
-                String name = "none";
-                int quantity = 0;
-                if (s.hasNext())
-                    name = s.next();
-                if (s.hasNext())
-                    quantity = Integer.parseInt(s.next().toString()) - 1;
-                if(user!=null)
+                Item itm= buttonsList.get(btn);
+                String name =itm.getName();
+                int quantity = AppItemsMap.get(itm); // default
+                if(user!=null) // in case that the is a user
                 {
-                    Map<Item,Integer> userItemsMap=user.getItems();
-                    Scanner s1 = new Scanner(str).useDelimiter(":");
-                    String itemName="None";
-                    if (s1.hasNext())
-                        itemName = s1.next();
-                    Item itm=getItemByName(itemName);
-                    int userQuantity=userItemsMap.get(itm);
-                    //userItemsMap.remove(itm);
-
+                    int userQuantity=user.getQuantityOfItem(itm);
                     int appQuantity=AppItemsMap.get(itm);
-                    if(quantity<0)
-                        quantity=0;
-                    else {
-                        AppItemsMap.put(itm, appQuantity + 1);
-                       // userItemsMap.put(itm,userQuantity-1);
+                    if(userQuantity >0) // if there is enough quantity from the item
+                    {
+                        AppItemsMap.put(itm, appQuantity +1);
                         user.updateItem(itm,userQuantity-1);
+                        quantity=userQuantity-1;
                     }
+                    else
+                        quantity=userQuantity;
                 }
-                ((Button) v).setText(name + " " + quantity);
+                ((Button) v).setText(name + ": " + quantity);
                 return true;
             }
         });
@@ -222,8 +221,7 @@ public class PickingItemsActivity extends AppCompatActivity {
             addItemsButtons(AppItemsMap,null);
         else
         {
-            userItemsMap=activeUser.getItems();
-            addItemsButtons(userItemsMap,activeUser);
+            uptadeItemsButtons(activeUser);
         }
     }
 
@@ -364,6 +362,7 @@ public class PickingItemsActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(PickingItemsActivity.this, PaymentActivity.class);
         ArrayList<User> usersList=(ArrayList<User>)users;
+        HashMap<Item,Integer> remainMap=(HashMap<Item,Integer>)AppItemsMap;
         User usr;
         for(int i=0;i<usersList.size();i++)
         {
@@ -374,6 +373,7 @@ public class PickingItemsActivity extends AppCompatActivity {
             }
         }
         intent.putExtra("Users",usersList);
+        intent.putExtra("remainItems",remainMap);
         startActivity(intent);
     }
 }

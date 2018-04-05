@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Item itm=new Item("coke",5);
                 Item itm1=new Item("tea",6);
-                Item itm2=new Item("banana",6);
+                Item itm2=new Item("banana a",6);
                 Item itm3=new Item("apple",6);
                 HashMap<Item,Integer> itemsList=new HashMap<Item,Integer>();
                 itemsList.put(itm,8);
