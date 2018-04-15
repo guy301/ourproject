@@ -24,7 +24,7 @@ public class PaymentActivity extends AppCompatActivity {
 
     private double tip=1;
     private List<User> users;
-    private List<Button> buttons;
+    private Map<Button,User> buttons;
     private  HashMap<Item,Integer> remainMap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class PaymentActivity extends AppCompatActivity {
 
         users = (ArrayList<User>) getIntent().getSerializableExtra("Users");
         remainMap= (HashMap<Item,Integer>)getIntent().getSerializableExtra("remainItems");
-        buttons=new ArrayList<Button>();
+        buttons=new HashMap<Button, User>();
         addUserButtons();
     }
 
@@ -54,7 +54,7 @@ public class PaymentActivity extends AppCompatActivity {
             btn.setText(name + ": " + new DecimalFormat("##.##").format(payment)+"$");
            // btn.setTextColor(255);
             layout.addView(btn);
-            buttons.add(btn);
+            buttons.put(btn,usr);
             userOnclik(btn,usr);
             btn.setY(i * 170);
             btn.setX(-1050);
@@ -62,26 +62,20 @@ public class PaymentActivity extends AppCompatActivity {
         }
     }
 
-    private void upadteUsers()
+    private void updateUsers()
     {
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.payment);
         String name;
         User usr;
         double payment;
-        int j=0;
-        for (int i=0;i<users.size();i++) {
-            usr=users.get(i);
+        Button btn;
+        for (Map.Entry<Button, User> entry : buttons.entrySet())
+        {
+            btn=entry.getKey();
+            usr=entry.getValue();
             name=usr.getName();
             payment=usr.getTotalPayment()*tip;
-            Button btn = new Button(this);
             btn.setText(name + ": " + new DecimalFormat("##.##").format(payment)+"$");
-            btn.setTextColor(255);
-
-            layout.addView(btn);
-            userOnclik(btn,usr);
-            btn.setY(i * 170);
-            btn.setX(-1250);
-            j++;
         }
     }
 
@@ -103,7 +97,7 @@ public class PaymentActivity extends AppCompatActivity {
                 if(s!=null && s!="")
                     tmp=Integer.parseInt(s);
                 tip=1+(double)tmp/100;
-                upadteUsers();
+                updateUsers();
                 dialog.cancel();
             }
         });
