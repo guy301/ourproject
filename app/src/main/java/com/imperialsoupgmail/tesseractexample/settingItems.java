@@ -5,17 +5,24 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.imperialsoupgmail.tesseractexample.PickingItemsActivity1;
+import com.imperialsoupgmail.tesseractexample.Item;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class settingItems extends AppCompatActivity {
     private Button go_back_b, Continue, addFriends;
     private String text;
+    private Map<Item, Integer> AllItems = new HashMap<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,40 +55,85 @@ public class settingItems extends AppCompatActivity {
         builder.setPositiveButton("confirm", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                EnterFriendsName();
+                EnterFriendsName(friends_qntty.getText().toString());
             }
         });
         builder.show();
     }
 
 
-    public void EnterFriendsName() {
-
+    public void EnterFriendsName(String numOfFriends) {
+        Integer friends_qntty = Integer.parseInt(numOfFriends);
+        String FN = "\0";
+        for (int i = 0; i < friends_qntty ; i++){
+            FN += Integer.toString(i+1) + "\n";
+        }
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Would you like to edit your friends' names?");
+        final TextView friends = new EditText(this);
+        friends.setMaxLines(friends_qntty);
+        friends.setPadding(3,3,3,3);
+        friends.setInputType(InputType.TYPE_TEXT_FLAG_MULTI_LINE);
+        friends.setSingleLine(false);
+        friends.setText(FN);
+        friends.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        builder.setView(friends);
+        builder.setNegativeButton("cancel",null);
+        builder.setPositiveButton("confirm", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                EnterUsersButtons(friends.getText().toString());
+            }
+        });
+        builder.show();
 
     }
-    public void addButtons(String s)
-    {
+
+/*******************************************************************************/
+    private void EnterUsersButtons(String s) {
+        if (s.isEmpty())
+            return;
         final String[] words = s.split("\\s+");
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.ImageContainer);
         int i=0;
-        for(final String word : words){
-
+        for (String name : words){
             final Button yourButton = new Button(this);
-            yourButton.setText(word);
-            //here can set to button OnClickListener if you want
+            yourButton.setText(name);
+            yourButton.setLayoutParams(new LinearLayout.LayoutParams(
+                    ViewGroup.LayoutParams.WRAP_CONTENT,
+                    ViewGroup.LayoutParams.WRAP_CONTENT));
+            yourButton.setX(-700);
+            yourButton.setY(300+i*150);
+            i++;
+            layout.addView(yourButton );
+        }
+    }
+
+
+    public void addButtons(String s)
+    {
+        processText(s);
+        if (AllItems.isEmpty()) {
+            return;
+        }
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.ImageContainer);
+        int i=0;
+        for (Map.Entry<Item, Integer> entry : AllItems.entrySet()){
+            final String b_text = entry.getKey().getName() + "\n" + entry.getKey().getPrice() + "\n"
+                    + entry.getValue();
+            final Button yourButton = new Button(this);
+            yourButton.setText(b_text);
             yourButton.setLayoutParams(new LinearLayout.LayoutParams(
                     ViewGroup.LayoutParams.WRAP_CONTENT,
                     ViewGroup.LayoutParams.WRAP_CONTENT));
             yourButton.setY(300+i*150);
-            i++;//s
+            i++;
             layout.addView(yourButton );
-            //final EditText edit = findViewById(R.id.edit_dialog);
-            //edit.setVisibility(View.INVISIBLE);
             yourButton.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
                 public boolean onLongClick(View v) {
 
-                    showDialog(word, yourButton);
+                    showDialog(b_text, yourButton);
                     return true;
                 }
             });
@@ -105,5 +157,29 @@ public class settingItems extends AppCompatActivity {
             }
         });
         builder.show();
+    }
+
+    public void processText(String s){
+        final String[] words = s.split("\\s+");
+        int j=4;//j=4 so we pass the titles, assuming there are 4 titles
+        int words_num = words.length;
+        //while (j < words_num-1-4) {//(-4) to ignore the total line assuming there are 4 columns
+        while (j < 8) {
+            final String item = "food" + j;
+            final String amount_s = "1";
+            final int amount_int = Integer.parseInt(amount_s);
+            final int price_int = j++;
+
+
+//            final String item = words[j++];
+//            final String amount_s = words[j++];
+//            final int amount_int = Integer.parseInt(amount_s);
+//            final String price_s = words[j++];
+//            final int price_int = Integer.parseInt(price_s);
+//            final String total_s = words[j++];
+//            final int total_int = Integer.parseInt(total_s);
+            Item new_item = new Item(item, price_int);
+            AllItems.put(new_item, amount_int);
+        }
     }
 }

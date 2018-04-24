@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\sap-1\\OneDrive\\Documents\\GitHub\\ourproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\23bb58b66ba17290982377f4076f7917\\res\\values-es\\values-es.xml",
+                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\ba3c42bc1728021c56c9bb58f46490aa\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
