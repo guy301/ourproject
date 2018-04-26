@@ -6,7 +6,11 @@
             "map": [
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0.aar\\d2711d74ddf16b766644585e4fbad0ed\\res\\values-v21\\values-v21.xml",
+=======
+                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0.aar\\ffeb96f38436eb44947b27f905cd1bf4\\res\\values-v21\\values-v21.xml",
+>>>>>>> parent of ad84a7f... 24.4.18
 =======
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0.aar\\ffeb96f38436eb44947b27f905cd1bf4\\res\\values-v21\\values-v21.xml",
 >>>>>>> parent of ad84a7f... 24.4.18
@@ -29,7 +33,11 @@
                 },
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\436399e9ddad1f20c556397d09637192\\res\\values-v21\\values-v21.xml",
+=======
+                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\23bb58b66ba17290982377f4076f7917\\res\\values-v21\\values-v21.xml",
+>>>>>>> parent of ad84a7f... 24.4.18
 =======
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\23bb58b66ba17290982377f4076f7917\\res\\values-v21\\values-v21.xml",
 >>>>>>> parent of ad84a7f... 24.4.18
@@ -52,7 +60,11 @@
                 },
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\84e86d3f16cc68670c5051aa4d7ac1be\\res\\values-v21\\values-v21.xml",
+=======
+                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\09daccf58b0d35dff897682fc31b55ea\\res\\values-v21\\values-v21.xml",
+>>>>>>> parent of ad84a7f... 24.4.18
 =======
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\09daccf58b0d35dff897682fc31b55ea\\res\\values-v21\\values-v21.xml",
 >>>>>>> parent of ad84a7f... 24.4.18

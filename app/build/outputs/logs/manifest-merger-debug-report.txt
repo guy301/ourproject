@@ -6,6 +6,7 @@ INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\A
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 <<<<<<< HEAD
+<<<<<<< HEAD
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:17:1-31:12
 MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\d14bc21e042dbe5199685d18b17f0a12\AndroidManifest.xml:17:1-26:12
@@ -19,6 +20,8 @@ MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.grad
 MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:17:1-31:12
 =======
+=======
+>>>>>>> parent of ad84a7f... 24.4.18
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:17:1-31:12
 MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\c662315290b51ea4d9c6a05f3471da96\AndroidManifest.xml:17:1-26:12
@@ -31,6 +34,9 @@ MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle
 MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\8101595c36371fe4b09eaca48fd2fecb\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bb979ba506706c340edea29103424f1b\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\ffeb96f38436eb44947b27f905cd1bf4\AndroidManifest.xml:17:1-31:12
+<<<<<<< HEAD
+>>>>>>> parent of ad84a7f... 24.4.18
+=======
 >>>>>>> parent of ad84a7f... 24.4.18
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
@@ -51,6 +57,7 @@ INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\A
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:5:5-22:19
+<<<<<<< HEAD
 <<<<<<< HEAD
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:11:5-17:19
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:11:5-17:19
@@ -75,6 +82,8 @@ MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:25:5-29:19
 =======
+=======
+>>>>>>> parent of ad84a7f... 24.4.18
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:11:5-17:19
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:25:5-29:19
@@ -97,6 +106,9 @@ MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\
 MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bb979ba506706c340edea29103424f1b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\ffeb96f38436eb44947b27f905cd1bf4\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\ffeb96f38436eb44947b27f905cd1bf4\AndroidManifest.xml:25:5-29:19
+<<<<<<< HEAD
+>>>>>>> parent of ad84a7f... 24.4.18
+=======
 >>>>>>> parent of ad84a7f... 24.4.18
 	android:supportsRtl
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:9:9-35
@@ -136,6 +148,7 @@ uses-sdk
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+<<<<<<< HEAD
 <<<<<<< HEAD
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:7:5-9:41
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:7:5-9:41
@@ -195,6 +208,36 @@ INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\A
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:23:9-75
 >>>>>>> parent of ad84a7f... 24.4.18
+=======
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\09515a7ae9c9c597385f345bc0e46890\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:21:5-23:78
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\c662315290b51ea4d9c6a05f3471da96\AndroidManifest.xml:22:5-24:41
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\c662315290b51ea4d9c6a05f3471da96\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6855a44a5d0064353b19bda40cce0ff2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6855a44a5d0064353b19bda40cce0ff2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\57c52b2cbfbf7a85d11c978965a2a995\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\57c52b2cbfbf7a85d11c978965a2a995\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\4489fb67bd313eff7c35cdd3654494ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\4489fb67bd313eff7c35cdd3654494ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\f01401ab53fbfdb00d5bfa5639dc0d1d\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\f01401ab53fbfdb00d5bfa5639dc0d1d\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\09daccf58b0d35dff897682fc31b55ea\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\09daccf58b0d35dff897682fc31b55ea\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\2c07d1a93586f6defca63a8d7de867b6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\2c07d1a93586f6defca63a8d7de867b6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\8101595c36371fe4b09eaca48fd2fecb\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\8101595c36371fe4b09eaca48fd2fecb\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bb979ba506706c340edea29103424f1b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bb979ba506706c340edea29103424f1b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\ffeb96f38436eb44947b27f905cd1bf4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\ffeb96f38436eb44947b27f905cd1bf4\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:23:9-75
+>>>>>>> parent of ad84a7f... 24.4.18
 	android:targetSdkVersion
 		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
@@ -204,6 +247,7 @@ INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\A
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
+<<<<<<< HEAD
 <<<<<<< HEAD
 ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:23:9-25:38
@@ -339,6 +383,8 @@ INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
 >>>>>>> origin/guy
 =======
+=======
+>>>>>>> parent of ad84a7f... 24.4.18
 ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\57c52b2cbfbf7a85d11c978965a2a995\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\57c52b2cbfbf7a85d11c978965a2a995\AndroidManifest.xml:23:9-25:38
@@ -360,4 +406,7 @@ MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\c
 		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:28:13-35
 	android:name
 		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\23bb58b66ba17290982377f4076f7917\AndroidManifest.xml:27:13-51
+<<<<<<< HEAD
+>>>>>>> parent of ad84a7f... 24.4.18
+=======
 >>>>>>> parent of ad84a7f... 24.4.18

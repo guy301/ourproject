@@ -6,6 +6,7 @@
             "map": [
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\436399e9ddad1f20c556397d09637192\\res\\values-v12\\values-v12.xml",
 =======
             "outputFile": "C:\\Users\\Guy\\Desktop\\proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
@@ -13,6 +14,9 @@
                 {
                     "source": "C:\\Users\\Guy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\4eaffdd11cfe5586fb89d8ee9ce8d932\\res\\values-v12\\values-v12.xml",
 >>>>>>> origin/guy
+=======
+                    "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\23bb58b66ba17290982377f4076f7917\\res\\values-v12\\values-v12.xml",
+>>>>>>> parent of ad84a7f... 24.4.18
 =======
                     "source": "C:\\Users\\sap-1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\23bb58b66ba17290982377f4076f7917\\res\\values-v12\\values-v12.xml",
 >>>>>>> parent of ad84a7f... 24.4.18

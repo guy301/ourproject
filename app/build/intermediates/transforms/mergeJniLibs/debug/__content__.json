@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"resources","index":0,"scopes":["PROJECT","EXTERNAL_LIBRARIES","SUB_PROJECTS"],"types":["NATIVE_LIBS"],"format":"DIRECTORY","present":true}]
+=======
+[{"name":"resources","index":0,"scopes":["EXTERNAL_LIBRARIES","PROJECT","SUB_PROJECTS"],"types":["NATIVE_LIBS"],"format":"DIRECTORY","present":true}]
+>>>>>>> parent of ad84a7f... 24.4.18
 =======
 [{"name":"resources","index":0,"scopes":["EXTERNAL_LIBRARIES","PROJECT","SUB_PROJECTS"],"types":["NATIVE_LIBS"],"format":"DIRECTORY","present":true}]
 >>>>>>> parent of ad84a7f... 24.4.18
