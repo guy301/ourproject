@@ -43,6 +43,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.0" />
     </application>
 
 </manifest>

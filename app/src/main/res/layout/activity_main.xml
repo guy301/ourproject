@@ -43,6 +43,17 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="38dp"
             android:text="users" />
+
+
+        <Button
+            android:id="@+id/setItems_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="setItems"
+            android:text="Set Items"
+            android:visibility="visible" />
     </RelativeLayout>
 
     <RelativeLayout
