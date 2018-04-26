@@ -4,18 +4,18 @@ ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\Andr
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\728652021a4f7af00651ad5ed4f2d74a\AndroidManifest.xml:2:1-19:12
-MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:17:1-31:12
-MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\9d2abf20aebf03c3161ed940ea3d258d\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\de853d2974e040a83bc81af9516d8d33\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\97eae6b2cf651bf8ab24d3c73a051fc7\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d890e149ad9d1a31a542290bd61af6b9\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\dee2cab5315bd935d95a54cb9fdc40d8\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\2eadafa45c5fecabaa1b1325aa7331ba\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\ac8521a037cb5d77cbfbed7d99cee097\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\3f6f3a265a59e83dcbca2aef888f27ad\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\3efa07d688cb70c293adbc057151080d\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\2a2430fd2f2a7567daa03235ac2c2fb6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:17:1-31:12
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\d14bc21e042dbe5199685d18b17f0a12\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f5109cda331f2598137bc7445e3d0a9e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\0a18275e60d23158c10e573489f93b42\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\137f1ccf663e296c17d69810498e1663\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\84e86d3f16cc68670c5051aa4d7ac1be\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\254d96832c84acac7ad06a9e142eb394\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\2debece681c9f604a57cdfa4081ae376\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:17:1-31:12
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:1-24:12
@@ -35,28 +35,28 @@ INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\A
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:5:5-22:19
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\728652021a4f7af00651ad5ed4f2d74a\AndroidManifest.xml:11:5-17:19
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\728652021a4f7af00651ad5ed4f2d74a\AndroidManifest.xml:11:5-17:19
-MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\de853d2974e040a83bc81af9516d8d33\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\de853d2974e040a83bc81af9516d8d33\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\97eae6b2cf651bf8ab24d3c73a051fc7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\97eae6b2cf651bf8ab24d3c73a051fc7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d890e149ad9d1a31a542290bd61af6b9\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d890e149ad9d1a31a542290bd61af6b9\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\dee2cab5315bd935d95a54cb9fdc40d8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\dee2cab5315bd935d95a54cb9fdc40d8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\2eadafa45c5fecabaa1b1325aa7331ba\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\2eadafa45c5fecabaa1b1325aa7331ba\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\ac8521a037cb5d77cbfbed7d99cee097\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\ac8521a037cb5d77cbfbed7d99cee097\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\3f6f3a265a59e83dcbca2aef888f27ad\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\3f6f3a265a59e83dcbca2aef888f27ad\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\3efa07d688cb70c293adbc057151080d\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\3efa07d688cb70c293adbc057151080d\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\2a2430fd2f2a7567daa03235ac2c2fb6\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\2a2430fd2f2a7567daa03235ac2c2fb6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:11:5-17:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f5109cda331f2598137bc7445e3d0a9e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f5109cda331f2598137bc7445e3d0a9e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\0a18275e60d23158c10e573489f93b42\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\0a18275e60d23158c10e573489f93b42\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\137f1ccf663e296c17d69810498e1663\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\137f1ccf663e296c17d69810498e1663\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\84e86d3f16cc68670c5051aa4d7ac1be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\84e86d3f16cc68670c5051aa4d7ac1be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\254d96832c84acac7ad06a9e142eb394\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\254d96832c84acac7ad06a9e142eb394\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\2debece681c9f604a57cdfa4081ae376\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\2debece681c9f604a57cdfa4081ae376\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
@@ -95,34 +95,34 @@ uses-sdk
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\728652021a4f7af00651ad5ed4f2d74a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\728652021a4f7af00651ad5ed4f2d74a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:21:5-23:78
-MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\9d2abf20aebf03c3161ed940ea3d258d\AndroidManifest.xml:22:5-24:41
-MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\9d2abf20aebf03c3161ed940ea3d258d\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\de853d2974e040a83bc81af9516d8d33\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\de853d2974e040a83bc81af9516d8d33\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\97eae6b2cf651bf8ab24d3c73a051fc7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\97eae6b2cf651bf8ab24d3c73a051fc7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d890e149ad9d1a31a542290bd61af6b9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d890e149ad9d1a31a542290bd61af6b9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\dee2cab5315bd935d95a54cb9fdc40d8\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\dee2cab5315bd935d95a54cb9fdc40d8\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\2eadafa45c5fecabaa1b1325aa7331ba\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\2eadafa45c5fecabaa1b1325aa7331ba\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\ac8521a037cb5d77cbfbed7d99cee097\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\ac8521a037cb5d77cbfbed7d99cee097\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\3f6f3a265a59e83dcbca2aef888f27ad\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\3f6f3a265a59e83dcbca2aef888f27ad\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\3efa07d688cb70c293adbc057151080d\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\3efa07d688cb70c293adbc057151080d\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\2a2430fd2f2a7567daa03235ac2c2fb6\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\2a2430fd2f2a7567daa03235ac2c2fb6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\8f9772210fda4a6af02c0d7a2cf71491\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:21:5-23:78
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\d14bc21e042dbe5199685d18b17f0a12\AndroidManifest.xml:22:5-24:41
+MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\d14bc21e042dbe5199685d18b17f0a12\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f5109cda331f2598137bc7445e3d0a9e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f5109cda331f2598137bc7445e3d0a9e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\0a18275e60d23158c10e573489f93b42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\0a18275e60d23158c10e573489f93b42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\137f1ccf663e296c17d69810498e1663\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\137f1ccf663e296c17d69810498e1663\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\84e86d3f16cc68670c5051aa4d7ac1be\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\84e86d3f16cc68670c5051aa4d7ac1be\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\254d96832c84acac7ad06a9e142eb394\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\254d96832c84acac7ad06a9e142eb394\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\2debece681c9f604a57cdfa4081ae376\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\2debece681c9f604a57cdfa4081ae376\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
@@ -132,24 +132,24 @@ INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\A
 		ADDED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\97eae6b2cf651bf8ab24d3c73a051fc7\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\97eae6b2cf651bf8ab24d3c73a051fc7\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d890e149ad9d1a31a542290bd61af6b9\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d890e149ad9d1a31a542290bd61af6b9\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\dee2cab5315bd935d95a54cb9fdc40d8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\dee2cab5315bd935d95a54cb9fdc40d8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\2eadafa45c5fecabaa1b1325aa7331ba\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\2eadafa45c5fecabaa1b1325aa7331ba\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\ac8521a037cb5d77cbfbed7d99cee097\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\ac8521a037cb5d77cbfbed7d99cee097\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\3f6f3a265a59e83dcbca2aef888f27ad\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\3f6f3a265a59e83dcbca2aef888f27ad\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\3efa07d688cb70c293adbc057151080d\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\3efa07d688cb70c293adbc057151080d\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\2a2430fd2f2a7567daa03235ac2c2fb6\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\2a2430fd2f2a7567daa03235ac2c2fb6\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\1474c551aa294442bdd1d9bbd299f37d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\0a18275e60d23158c10e573489f93b42\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\0a18275e60d23158c10e573489f93b42\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\137f1ccf663e296c17d69810498e1663\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\137f1ccf663e296c17d69810498e1663\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\84e86d3f16cc68670c5051aa4d7ac1be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\84e86d3f16cc68670c5051aa4d7ac1be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\254d96832c84acac7ad06a9e142eb394\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\254d96832c84acac7ad06a9e142eb394\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\2debece681c9f604a57cdfa4081ae376\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\2debece681c9f604a57cdfa4081ae376\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\79c884d1dffc28fabde9c4b3d8772f19\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d2711d74ddf16b766644585e4fbad0ed\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\ba3c42bc1728021c56c9bb58f46490aa\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sap-1\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\436399e9ddad1f20c556397d09637192\AndroidManifest.xml:27:13-51
