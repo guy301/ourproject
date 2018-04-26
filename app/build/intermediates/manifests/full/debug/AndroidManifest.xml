@@ -25,12 +25,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name="com.imperialsoupgmail.tesseractexample.PickingItemsActivity1" />
         <activity android:name="com.imperialsoupgmail.tesseractexample.settingItems" />
 
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.0.0" />
+=======
+        <activity
+            android:name="com.imperialsoupgmail.tesseractexample.PickingItemsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.imperialsoupgmail.tesseractexample.PaymentActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+>>>>>>> origin/guy
     </application>
 
 </manifest>

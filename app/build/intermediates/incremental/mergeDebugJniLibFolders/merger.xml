@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\sap-1\OneDrive\Documents\GitHub\ourproject\app\src\debug\jniLibs"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="C:\Users\Guy\Desktop\proj\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Guy\Desktop\proj\app\src\debug\jniLibs"/></dataSet></merger>
+>>>>>>> origin/guy

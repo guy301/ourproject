@@ -32,7 +32,12 @@
             android:layout_marginStart="148dp"
             android:layout_marginTop="73dp"
             android:onClick="takePicture"
+<<<<<<< HEAD
             android:text="take a pic" />
+=======
+            android:text="take a pic"
+            />
+>>>>>>> origin/guy
 
         <Button
             android:id="@+id/users"
@@ -42,6 +47,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="38dp"
             android:text="users" />
+<<<<<<< HEAD
 
         <Button
             android:id="@+id/setItems_b"
@@ -52,6 +58,8 @@
             android:onClick="setItems"
             android:text="Set Items"
             android:visibility="visible" />
+=======
+>>>>>>> origin/guy
     </RelativeLayout>
 
     <RelativeLayout
