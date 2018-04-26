@@ -17,12 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".PickingItemsActivity1" />
         <activity android:name=".settingItems"></activity>
     </application>
 
-=======
 
 
         <activity android:name=".PickingItemsActivity"
@@ -43,5 +42,5 @@
         </activity>
     </application>
 
->>>>>>> origin/guy
+
 </manifest>
