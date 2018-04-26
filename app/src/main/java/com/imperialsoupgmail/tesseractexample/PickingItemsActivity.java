@@ -3,6 +3,8 @@ package com.imperialsoupgmail.tesseractexample;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -53,7 +55,8 @@ public class PickingItemsActivity extends AppCompatActivity {
             btn.setText(name + ": " + quantity);
             layout.addView(btn);
             btn.setY(i * 170);
-            btn.setX(-1050);
+            RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) btn.getLayoutParams();
+            lp.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
             if(btn.getWidth()>maxButtonWidth)
                 maxButtonWidth=btn.getWidth();
             buttonsList.put(btn,itm);
@@ -335,12 +338,17 @@ public class PickingItemsActivity extends AppCompatActivity {
             usersButtonList.add(Userbutton);
             Userbutton .setText(userName);
 
-            Userbutton .setLayoutParams(new LinearLayout.LayoutParams(
-                    ViewGroup.LayoutParams.WRAP_CONTENT,
+            Userbutton .setLayoutParams(new RelativeLayout.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.WRAP_CONTENT));
 
-            Userbutton.setY(1900);
-            Userbutton.setX(-1150+300*i);
+            RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) Userbutton.getLayoutParams();
+            lp.addRule(RelativeLayout.ALIGN_LEFT);
+            lp.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
+
+
+       //     Userbutton.setY(1900);
+           // Userbutton.setX(-1150+300*i);
             Userbutton .setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
