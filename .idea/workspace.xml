@@ -2790,6 +2790,7 @@
     <property name="android.profiler.active" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1524747692122" />
 =======
             <PATH_ELEMENT>
@@ -2814,6 +2815,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="android.profiler.active" value="true" />
 >>>>>>> origin/guy
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1524580263065" />
+>>>>>>> parent of 71e4f93... 26/4
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
