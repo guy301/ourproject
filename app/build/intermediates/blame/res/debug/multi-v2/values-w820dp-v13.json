@@ -5,6 +5,7 @@
             "map": [
                 {
                     "source": "C:\\Users\\Guy\\Desktop\\proj\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+<<<<<<< HEAD
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -71,6 +72,8 @@
             "map": [
                 {
                     "source": "C:\\Users\\Guy\\Desktop\\project\\28_2_v1\\SimpleTesseractExample\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+=======
+>>>>>>> guy
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

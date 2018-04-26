@@ -1,9 +1,16 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
+=======
+ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+>>>>>>> guy
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:17:1-27:12
 MERGED from [com.rmtheis:tess-two:5.4.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\tess-two-5.4.1.aar\ac5ca4baf41567cbe3d06f36d3cec47a\AndroidManifest.xml:17:1-26:12
@@ -11,25 +18,43 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gu
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\fdf16144e21b9140d347134cddc247f1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\83b15a2295181280c9a572a17020720a\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\c71b9a4a62d1ae09438742049bff56d1\AndroidManifest.xml:17:1-27:12
+<<<<<<< HEAD
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
+=======
+INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+>>>>>>> guy
 	package
 		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+<<<<<<< HEAD
 		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-23:12
+=======
+		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:1-40:12
+>>>>>>> guy
 		INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:2:11-69
 application
+<<<<<<< HEAD
 ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:5:5-21:19
+=======
+ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:5:5-38:19
+>>>>>>> guy
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:11:5-17:19
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\d5dfa16022bdfa6d8b450f54682d75e4\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Guy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\4eaffdd11cfe5586fb89d8ee9ce8d932\AndroidManifest.xml:25:5-20
@@ -68,10 +93,25 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:17:27-74
+<<<<<<< HEAD
 activity#com.imperialsoupgmail.tesseractexample.PickingItemsActivity1
 ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:20:9-68
 	android:name
 		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:20:19-56
+=======
+activity#com.imperialsoupgmail.tesseractexample.PickingItemsActivity
+ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:theme
+		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:23:19-69
+	android:name
+		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:22:19-55
+activity#com.imperialsoupgmail.tesseractexample.PaymentActivity
+ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:31:9-37:20
+	android:theme
+		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml:31:19-50
+>>>>>>> guy
 uses-sdk
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Guy\Desktop\proj\app\src\main\AndroidManifest.xml

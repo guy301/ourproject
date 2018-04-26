@@ -9,10 +9,10 @@ import java.util.Iterator;
 
 public class Item implements Serializable {
 
-    private int price;
+    private double price;
     private String name;
 
-    public Item(String name, int price)
+    public Item(String name, double price)
     {
         this.name=name;
         this.price=price;
@@ -33,7 +33,7 @@ public class Item implements Serializable {
         return this.name;
     }
 
-    public int getPrice()
+    public double getPrice()
     {
         return  this.price;
     }

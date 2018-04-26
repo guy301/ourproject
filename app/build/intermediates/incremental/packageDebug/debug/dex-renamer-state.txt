@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Tue Apr 03 16:26:46 IDT 2018
+=======
+#Thu Apr 26 10:13:32 IDT 2018
+>>>>>>> guy
 base.0=C\:\\Users\\Guy\\Desktop\\proj\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
